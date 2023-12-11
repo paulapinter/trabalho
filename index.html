@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ptrbr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculo Paula Pinter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: inherit;
+        font-family: 'Roboto', sans-serif;
+    }
+    ul.menu{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #F3F3F3;
+    }
+    ul.menu li{
+        float: left;
+    }
+    ul.menu li a:hover{
+        background-color: #F21CD5;
+        color: #FFF !important;
+    }
+    ul.menu li .active{
+        background-color: #F21CD573;
+        color: #FFF !important;
+    }
+    ul.menu li a{
+        display: block;
+        color: #666;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    ul.menu li p{
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        font-weight: bold;
+        color: #F21CD5;
+    }
+    ul.menu li p small{
+        color: #F21CD573;
+    }
+    #conteudo{
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .interna{
+        width: 50%;
+        margin-top: 100px;
+    }
+    </style>
+</head>
+<body>
+
+    <header>
+        <ul class="menu">
+            <li><a class="active" href="javascript:void(0)">Sobre Mim</a></li>
+            <li><a href="formacao.html">Formação Acadêmica</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li style="float:right"><p>Paula Pinter <small>- RU:4183963</small></p></li>
+        </ul>
+    </header>
+
+    <div id="conteudo">
+        <div class="interna">
+            <div style="width: 50%; font-size: 1rem; float: left;">
+                <h2 style="color: #F21CD5; padding-bottom: 40px;">Sobre a Paula</h2>
+                <p style="padding-right: 15px;">
+                    Completamente apaixonada pela vida, intensa, aquela que ama aproveitar cada mínimo detalhe e onde chega é notada por suas qualidades, essa sou eu!
+                    <br>
+                    Sou muito prestativa, honesta, dedicada, gosto de finalizar tudo o que começo, nas horas livres gosto de estar com a minha família, curtir meus filhos, tocar teclado e cantar.
+                </p>
+            </div>
+            <div style="width: 50%; float: left;">
+                <img src="img/perfil.jpg" width="300" />
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
